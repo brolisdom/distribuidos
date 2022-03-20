@@ -83,7 +83,7 @@ public class ClienteRMI extends Thread {
         ClienteRMI nodo1 = new ClienteRMI("rmi://20.228.196.65:50000/prueba", 1); 
         ClienteRMI nodo2 = new ClienteRMI("rmi://20.228.196.146:50000/prueba", 2); 
         ClienteRMI nodo3 = new ClienteRMI("rmi://20.228.179.19:50000/prueba", 3); 
-        ClienteRMI nodo4 = new ClienteRMI("rmi://20.25.61.14:50000/prueba", 4); 
+        ClienteRMI nodo4 = new ClienteRMI("rmi://20.25.61.12:50000/prueba", 4); 
         nodo1.start(); nodo2.start(); nodo3.start(); nodo4.start();
         nodo1.join(); nodo2.join(); nodo3.join(); nodo4.join();
         int aux = 0;
