@@ -80,9 +80,9 @@ public class ClienteRMI extends Thread {
         float [][] C = new float[N][N];
         for (int i=0; i<4; i++) Ax[i] = separa_matriz(A, i*N/4);
         for (int i=0; i<4; i++) Bx[i] = separa_matriz(B, i*N/4);
-        ClienteRMI nodo1 = new ClienteRMI("rmi://20.228.196.65:50000/prueba", 1); 
-        ClienteRMI nodo2 = new ClienteRMI("rmi://20.228.196.46:50000/prueba", 2); 
-        ClienteRMI nodo3 = new ClienteRMI("rmi://20.228.179.19:50000/prueba", 3); 
+        ClienteRMI nodo1 = new ClienteRMI("rmi://20.25.61.12:50000/prueba", 1); 
+        ClienteRMI nodo2 = new ClienteRMI("rmi://20.25.61.12:50000/prueba", 2); 
+        ClienteRMI nodo3 = new ClienteRMI("rmi://20.25.61.12:50000/prueba", 3); 
         ClienteRMI nodo4 = new ClienteRMI("rmi://20.25.61.12:50000/prueba", 4); 
 
         nodo1.start();
