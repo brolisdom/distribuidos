@@ -34,7 +34,7 @@ public class ClienteRMI extends Thread {
 
     static float calcular_checksum(float[][] M) {
         float checksum = 0;
-        for (int i=0; i<N; i++) for (int j=0; j<N; j++) checksum = M[i][j];
+        for (int i=0; i<N; i++) for (int j=0; j<N; j++) checksum += M[i][j];
         return checksum;
     }
 
